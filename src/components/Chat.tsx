@@ -1,9 +1,9 @@
 'use client'
 
 import { FC } from 'react'
-import ChatInput from './Chatinput'
-import ChatMessages from './ChatMessages'
-import ChatHeader from './ChatHeader'
+import Chatinput from './Chatinput'
+import Chatmessages from './ChatMessages'
+import Chatheader from './ChatHeader'
 import {
   Accordion,
   AccordionContent,
