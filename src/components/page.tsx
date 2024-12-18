@@ -1,6 +1,6 @@
 'use client'
 
-import { Dialog } from '@headlessui/react'
+import { Dialog, DialogPanel } from '@headlessui/react'
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
 
@@ -61,7 +61,7 @@ export default function Home() {
           open={mobileMenuOpen}
           onClose={setMobileMenuOpen}>
           <div className='fixed inset-0 z-50' />
-          <Dialog.Panel className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
+          <DialogPanel className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
             <div className='flex items-center justify-between'>
               <a href='#' className='-m-1.5 p-1.5'>
                 <span className='sr-only'>Your Company</span>
@@ -100,7 +100,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </Dialog.Panel>
+          </DialogPanel>
         </Dialog>
       </header>
 
@@ -123,7 +123,7 @@ export default function Home() {
                 Your go-to bookstore for fantasy and mystery
               </h1>
               <p className='mt-6 text-lg leading-8 text-gray-600'>
-                Bookbuddy is a small bookstore that specializes in fantasy and mystery
+                Miranda is a small bookstore that specializes in fantasy and mystery
                 books. Find us here in San Diego or order online anytime.
               </p>
               <div className='mt-10 flex items-center justify-center gap-x-6'>
